@@ -1,0 +1,74 @@
+    1  sudo apt update
+    2  apt update
+    3  apt install build-essential
+    4  apt-get install gdb
+    5  mkdir SITR_P2
+    6  cd SITR_P2/
+    7  nano a1.cpp
+    8  apt install nano
+    9  nano a1.cpp
+   10  gcc a1.cpp
+   11  ./a.out 
+   12  nano a2.cpp
+   13  gcc a2.cpp
+   14  ./a.out 
+   15  nano a2.cpp
+   16  nano a3.cpp
+   17  gcc a3.cpp
+   18  ./a.out 
+   19  nano a3.cpp
+   20  gcc a3.cpp
+   21  ./a.out 
+   22  nano a3.cpp
+   23  nano a4.cpp
+   24  gcc a4.cpp
+   25  ./a.out 
+   26  nano a5.cpp
+   27  nano hijo.cpp
+   28  gcc a4.cpp hijo.cpp
+   29  gcc a4.cpp hijo.c
+   30  nano hijo.cpp
+   31  ls
+   32  rm hijo.cpp
+   33  ls
+   34  gcc a4.cpp hijo.c
+   35  gcc -c main  a4.cpp hijo.c
+   36  gcc -o test a4.cpp hijo.c
+   37  gcc -o hijo.c
+   38  gcc  hijo.c
+   39  gcc -c  hijo.c
+   40  ls
+   41  gcc -c  a5.cpp
+   42  ls
+   43  gcc -c a5.o hijo.o
+   44  git add origin git@github.com:ferxxp/SITR_P2.git
+   45  apt-get install git
+   46  git add origin git@github.com:ferxxp/SITR_P2.git
+   47  git start
+   48  git
+   49  git init
+   50  git add origin git@github.com:ferxxp/SITR_P2.git
+   51  git add master git@github.com:ferxxp/SITR_P2.git
+   52  ls
+   53  git add *
+   54  git commit -m "first commit"
+   55  git branch -M main
+   56  git remote add origin https://github.com/ferxxp/SITR_P2.git
+   57  git push -u origin main
+   58  git config --global user.email "fquevedo@ing.uc3m.es"
+   59  git config --global user.name "Fernando"
+   60  git push -u origin main
+   61  git add *
+   62  git commit
+   63  git push -u origin main
+   64  ssh-keygen -t ed25519 -C "fquevedo@ing.uc3m.es"
+   65  ssh-add ~/.ssh/id_ed25519.pub
+   66  eval `ssh-agent -s`
+   67  ssh-add ~/.ssh/id_ed25519.pub
+   68  nano  ~/.ssh/id_ed25519.pub
+   69  ssh -T git@github.com
+   70  git remote set_url origin git@github.com:ferxxp/SITR_P2.git
+   71  git remote set-url origin git@github.com:ferxxp/SITR_P2.git
+   72  git push
+   73  git push --set-upstream origin main
+   74  history>>commands.txt
